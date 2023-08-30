@@ -1,30 +1,31 @@
-import logo from '../logo.png';
+import logo from '../assets/logo.png';
 
 export default function Footer() {
     return (
-        <footer>
-            <img src={logo} />
-            <nav>
+        <footer className='footerSection'>
+
+            <nav className='footerNavContainer'>
+                <img src={logo} className='footerLogo' />
                 <ul>
                     <h2>Navigation</h2>
-                    <a><li>Home</li></a>
-                    <a><li>About</li></a>
-                    <a><li>Menu</li></a>
-                    <a><li>Reservations</li></a>
-                    <a><li>Order Online</li></a>
-                    <a><li>Login</li></a>
+                    <a href='#'><li>Home</li></a>
+                    <a href='#'><li>About</li></a>
+                    <a href='#'><li>Menu</li></a>
+                    <a href='#'><li>Reservations</li></a>
+                    <a href='#'><li>Order Online</li></a>
+                    <a href='#'><li>Login</li></a>
                 </ul>
                 <ul>
                     <h2>Contact</h2>
-                    <a><li>Address</li></a>
-                    <a><li>Phone Number</li></a>
-                    <a><li>Email</li></a>
+                    <a href='#'><li>Address</li></a>
+                    <a href='#'><li>Phone Number</li></a>
+                    <a href='#'><li>Email</li></a>
                 </ul>
                 <ul>
                     <h2>Social Media</h2>
-                    <a><li>Instagram</li></a>
-                    <a><li>Twitter</li></a>
-                    <a><li>Facebook</li></a>
+                    <a href='#'><li>Instagram</li></a>
+                    <a href='#'><li>Twitter</li></a>
+                    <a href='#'><li>Facebook</li></a>
                 </ul>
             </nav>
         </footer>
